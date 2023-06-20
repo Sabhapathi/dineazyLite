@@ -1,0 +1,397 @@
+Request method:	POST
+Request URI:	https://dineazy-api-dev.elaachi.com/api/v2/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "swati.p@itprofound.com",
+    "password": "Anish##0104"
+}
+HTTP/1.1 201 Created
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 20 Jun 2023 10:56:39 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1823
+Connection: keep-alive
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"71f-j4rJ8FTJNNBiduGPxhzqDHmJ2/8"
+
+{
+    "code": 200,
+    "message": "User successfully logged in.",
+    "data": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MzQxZjFjNGEyM2QxNDMyM2Y2Yjc2ZCIsImVtYWlsIjoic3dhdGkucEBpdHByb2ZvdW5kLmNvbSIsInJvbGVzIjp7ImZpcnN0TmFtZSI6InN3YXRpIiwibGFzdE5hbWUiOiJwYXRpbCIsImVtYWlsIjoic3dhdGkucEBpdHByb2ZvdW5kLmNvbSIsInBob25lIjoiNzYzMzUzOTMxOSIsIl9pZCI6IjY0MzQxZjFjNGEyM2QxNDMyM2Y2Yjc2ZCIsInN5c3RlbUFkbWluIjpmYWxzZSwicGVybWlzc2lvbnMiOlt7ImNvbXBhbnkiOnsiX2lkIjoiNjM3ZTM2MjUwMmY5ZGRhOTIyNmVjNWU4IiwiY3JlYXRlZEJ5IjoiMSIsIm1vZGlmaWVkIjoiMSIsImFjdGl2ZSI6dHJ1ZSwiZGVsZXRlZCI6ZmFsc2UsIm5hbWUiOiJJVEMiLCJkZXNjcmlwdGlvbiI6IiIsIndlYnNpdGUiOiIiLCJsb2dvSWQiOiI2MzdlNGY2YTAyZjlkZGE5MjI2ZWM4NDciLCJmVGVzdCI6ZmFsc2UsIm9iamVjdFR5cGUiOiJDb21wYW55IiwicGFyZW50SWQiOm51bGwsImNyZWF0ZWRBdCI6IjIwMjItMTEtMjNUMTU6MDM6MDEuOTIyWiIsInVwZGF0ZWRBdCI6IjIwMjMtMDYtMTlUMTI6Mjg6NTguODMxWiIsIl9fdiI6MCwicG9jSWQiOiI2NDM0Mjc0ZDRhMjNkMTQzMjNmNmI4MDYifSwicm9sZXMiOlt7ImNyZWF0ZWRCeSI6IjEiLCJtb2RpZmllZCI6IjEiLCJfaWQiOiI2MzdiNGJjMjkwZTQ2N2FiMDM3ZGUzNTQiLCJhY3RpdmUiOnRydWUsImRlbGV0ZWQiOmZhbHNlLCJuYW1lIjoiQWRtaW4iLCJkZXNjcmlwdGlvbiI6IkFkbWluIiwiY3JlYXRlZEF0IjoiMjAyMS0xMi0yMFQwNjowNjo1OS4yNzVaIiwidXBkYXRlZEF0IjoiMjAyMi0wMS0yNlQwNTo1NjowNi45NDZaIiwiX192IjoxfV0sInJldmVudWVDZW50ZXJzIjpbeyJfaWQiOiI2MzdlMzZhNzAyZjlkZGE5MjI2ZWM2MDQiLCJjcmVhdGVkQnkiOiIxIiwibW9kaWZpZWQiOiIxIiwiYWN0aXZlIjp0cnVlLCJkZWxldGVkIjpmYWxzZSwibmFtZSI6IkFyb21hIiwiZGVzY3JpcHRpb24iOiIiLCJ3ZWJzaXRlIjoiIiwibG9nb0lkIjoiNjM3ZTRmN2QwMmY5ZGRhOTIyNmVjODRkIiwiZlRlc3QiOmZhbHNlLCJvYmplY3RUeXBlIjoiUmVzdGF1cmFudCIsInBhcmVudElkIjoiNjM3ZTM2MjUwMmY5ZGRhOTIyNmVjNWU4IiwiY3JlYXRlZEF0IjoiMjAyMi0xMS0yM1QxNTowNToxMS40OTJaIiwidXBkYXRlZEF0IjoiMjAyMy0wNi0xOVQxMjowNTowNi4wODBaIiwiX192IjowLCJwb2NJZCI6IjYzN2UzNjUwMDJmOWRkYTkyMjZlYzVlYyJ9XX1dfSwiaWF0IjoxNjg3MjU4NTk5fQ.gQuRc6ny_nofYF15RpHraSfDzhc3F0ybmG_fdJX5itA"
+    },
+    "success": true
+}
+Request method:	POST
+Request URI:	https://dineazy-api-dev.elaachi.com/api/v2/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "girish.pr@itprofound.com",
+    "password": "Test@1234"
+}
+HTTP/1.1 201 Created
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 20 Jun 2023 10:56:42 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 5028
+Connection: keep-alive
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"13a4-v6ur71DmQhOjYNJNNyGEOlk8KLk"
+
+{
+    "code": 200,
+    "message": "User successfully logged in.",
+    "data": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzOGVjNjRhYTdhZWUzY2JiZWUwNTdlMSIsImVtYWlsIjoiZ2lyaXNoLnByQGl0cHJvZm91bmQuY29tIiwicm9sZXMiOnsiZmlyc3ROYW1lIjoiZ2lyaXNoIiwibGFzdE5hbWUiOiJQIiwiZW1haWwiOiJnaXJpc2gucHJAaXRwcm9mb3VuZC5jb20iLCJwaG9uZSI6IjgwOTUzMzUxMzAiLCJfaWQiOiI2MzhlYzY0YWE3YWVlM2NiYmVlMDU3ZTEiLCJzeXN0ZW1BZG1pbiI6dHJ1ZSwicGVybWlzc2lvbnMiOlt7ImNvbXBhbnkiOnsiX2lkIjoiNjM3ZTM2MjUwMmY5ZGRhOTIyNmVjNWU4IiwiY3JlYXRlZEJ5IjoiMSIsIm1vZGlmaWVkIjoiMSIsImFjdGl2ZSI6dHJ1ZSwiZGVsZXRlZCI6ZmFsc2UsIm5hbWUiOiJJVEMiLCJkZXNjcmlwdGlvbiI6IiIsIndlYnNpdGUiOiIiLCJsb2dvSWQiOiI2MzdlNGY2YTAyZjlkZGE5MjI2ZWM4NDciLCJmVGVzdCI6ZmFsc2UsIm9iamVjdFR5cGUiOiJDb21wYW55IiwicGFyZW50SWQiOm51bGwsImNyZWF0ZWRBdCI6IjIwMjItMTEtMjNUMTU6MDM6MDEuOTIyWiIsInVwZGF0ZWRBdCI6IjIwMjMtMDYtMTlUMTI6Mjg6NTguODMxWiIsIl9fdiI6MCwicG9jSWQiOiI2NDM0Mjc0ZDRhMjNkMTQzMjNmNmI4MDYifSwicm9sZXMiOlt7ImNyZWF0ZWRCeSI6IjEiLCJtb2RpZmllZCI6IjEiLCJfaWQiOiI2MzdiNGJjMjkwZTQ2N2FiMDM3ZGUzNTQiLCJhY3RpdmUiOnRydWUsImRlbGV0ZWQiOmZhbHNlLCJuYW1lIjoiQWRtaW4iLCJkZXNjcmlwdGlvbiI6IkFkbWluIiwiY3JlYXRlZEF0IjoiMjAyMS0xMi0yMFQwNjowNjo1OS4yNzVaIiwidXBkYXRlZEF0IjoiMjAyMi0wMS0yNlQwNTo1NjowNi45NDZaIiwiX192IjoxfV0sInJldmVudWVDZW50ZXJzIjpbeyJfaWQiOiI2MzdlMzZhNzAyZjlkZGE5MjI2ZWM2MDQiLCJjcmVhdGVkQnkiOiIxIiwibW9kaWZpZWQiOiIxIiwiYWN0aXZlIjp0cnVlLCJkZWxldGVkIjpmYWxzZSwibmFtZSI6IkFyb21hIiwiZGVzY3JpcHRpb24iOiIiLCJ3ZWJzaXRlIjoiIiwibG9nb0lkIjoiNjM3ZTRmN2QwMmY5ZGRhOTIyNmVjODRkIiwiZlRlc3QiOmZhbHNlLCJvYmplY3RUeXBlIjoiUmVzdGF1cmFudCIsInBhcmVudElkIjoiNjM3ZTM2MjUwMmY5ZGRhOTIyNmVjNWU4IiwiY3JlYXRlZEF0IjoiMjAyMi0xMS0yM1QxNTowNToxMS40OTJaIiwidXBkYXRlZEF0IjoiMjAyMy0wNi0xOVQxMjowNTowNi4wODBaIiwiX192IjowLCJwb2NJZCI6IjYzN2UzNjUwMDJmOWRkYTkyMjZlYzVlYyJ9XX0seyJjb21wYW55Ijp7Il9pZCI6IjY0MzkxZWIxY2E4NGJkN2M0ZTRiZjRhOSIsImNyZWF0ZWRCeSI6IjEiLCJtb2RpZmllZCI6IjEiLCJhY3RpdmUiOnRydWUsImRlbGV0ZWQiOmZhbHNlLCJuYW1lIjoiQk1SIiwiZGVzY3JpcHRpb24iOiIiLCJ3ZWJzaXRlIjoiIiwibG9nb0lkIjpudWxsLCJmVGVzdCI6ZmFsc2UsIm9iamVjdFR5cGUiOiJDb21wYW55IiwicGFyZW50SWQiOm51bGwsImNyZWF0ZWRBdCI6IjIwMjMtMDQtMTRUMDk6MzY6NDkuOTAwWiIsInVwZGF0ZWRBdCI6IjIwMjMtMDQtMTRUMDk6NTI6NDEuMTgxWiIsIl9fdiI6MCwicG9jSWQiOiI2MzhlYzY0YWE3YWVlM2NiYmVlMDU3ZTEifSwicm9sZXMiOlt7ImNyZWF0ZWRCeSI6IjEiLCJtb2RpZmllZCI6IjEiLCJfaWQiOiI2MzdiNGJjMjkwZTQ2N2FiMDM3ZGUzNTQiLCJhY3RpdmUiOnRydWUsImRlbGV0ZWQiOmZhbHNlLCJuYW1lIjoiQWRtaW4iLCJkZXNjcmlwdGlvbiI6IkFkbWluIiwiY3JlYXRlZEF0IjoiMjAyMS0xMi0yMFQwNjowNjo1OS4yNzVaIiwidXBkYXRlZEF0IjoiMjAyMi0wMS0yNlQwNTo1NjowNi45NDZaIiwiX192IjoxfV0sInJldmVudWVDZW50ZXJzIjpbXX0seyJjb21wYW55Ijp7Il9pZCI6IjY0MzkyMjljY2E4NGJkN2M0ZTRiZjVlNiIsImNyZWF0ZWRCeSI6IjEiLCJtb2RpZmllZCI6IjEiLCJhY3RpdmUiOnRydWUsImRlbGV0ZWQiOmZhbHNlLCJuYW1lIjoiSHlkZXJhYmFkIFBhcmFkaXNlIiwiZGVzY3JpcHRpb24iOiIiLCJ3ZWJzaXRlIjoiIiwibG9nb0lkIjpudWxsLCJmVGVzdCI6ZmFsc2UsIm9iamVjdFR5cGUiOiJDb21wYW55IiwicGFyZW50SWQiOm51bGwsImNyZWF0ZWRBdCI6IjIwMjMtMDQtMTRUMDk6NTM6MzIuOTU2WiIsInVwZGF0ZWRBdCI6IjIwMjMtMDQtMTVUMDQ6MjM6MTguMDc5WiIsIl9fdiI6MCwicG9jSWQiOiI2MzhlYzY0YWE3YWVlM2NiYmVlMDU3ZTEifSwicm9sZXMiOlt7ImNyZWF0ZWRCeSI6IjEiLCJtb2RpZmllZCI6IjEiLCJfaWQiOiI2MzdiNGJjMjkwZTQ2N2FiMDM3ZGUzNTQiLCJhY3RpdmUiOnRydWUsImRlbGV0ZWQiOmZhbHNlLCJuYW1lIjoiQWRtaW4iLCJkZXNjcmlwdGlvbiI6IkFkbWluIiwiY3JlYXRlZEF0IjoiMjAyMS0xMi0yMFQwNjowNjo1OS4yNzVaIiwidXBkYXRlZEF0IjoiMjAyMi0wMS0yNlQwNTo1NjowNi45NDZaIiwiX192IjoxfV0sInJldmVudWVDZW50ZXJzIjpbXX0seyJjb21wYW55Ijp7Il9pZCI6IjY0M2EyNzNmNjU1YTEyNDY4MzA5YjQ0ZiIsImNyZWF0ZWRCeSI6IjEiLCJtb2RpZmllZCI6IjEiLCJhY3RpdmUiOnRydWUsImRlbGV0ZWQiOmZhbHNlLCJuYW1lIjoiZHVtbXkiLCJkZXNjcmlwdGlvbiI6ImR1bW15Iiwid2Vic2l0ZSI6IiIsImxvZ29JZCI6IjY0M2EyNzRiNjU1YTEyNDY4MzA5YjQ1NiIsImZUZXN0IjpmYWxzZSwib2JqZWN0VHlwZSI6IkNvbXBhbnkiLCJwYXJlbnRJZCI6bnVsbCwiY3JlYXRlZEF0IjoiMjAyMy0wNC0xNVQwNDoyNTozNS40OTlaIiwidXBkYXRlZEF0IjoiMjAyMy0wNC0xNVQwNDoyNzoxMy4yNDVaIiwiX192IjowLCJwb2NJZCI6IjYzOGVjNjRhYTdhZWUzY2JiZWUwNTdlMSJ9LCJyb2xlcyI6W3siY3JlYXRlZEJ5IjoiMSIsIm1vZGlmaWVkIjoiMSIsIl9pZCI6IjYzN2I0YmMyOTBlNDY3YWIwMzdkZTM1NCIsImFjdGl2ZSI6dHJ1ZSwiZGVsZXRlZCI6ZmFsc2UsIm5hbWUiOiJBZG1pbiIsImRlc2NyaXB0aW9uIjoiQWRtaW4iLCJjcmVhdGVkQXQiOiIyMDIxLTEyLTIwVDA2OjA2OjU5LjI3NVoiLCJ1cGRhdGVkQXQiOiIyMDIyLTAxLTI2VDA1OjU2OjA2Ljk0NloiLCJfX3YiOjF9XSwicmV2ZW51ZUNlbnRlcnMiOltdfSx7ImNvbXBhbnkiOnsiX2lkIjoiNjQ1MTA0MzU5YjdiNjQ5YzRiMDdjOGY1IiwiY3JlYXRlZEJ5IjoiMSIsIm1vZGlmaWVkIjoiMSIsImFjdGl2ZSI6dHJ1ZSwiZGVsZXRlZCI6ZmFsc2UsIm5hbWUiOiJOZXcgSG9yaXpvbiIsImRlc2NyaXB0aW9uIjoiIiwid2Vic2l0ZSI6IiIsImxvZ29JZCI6bnVsbCwiZlRlc3QiOmZhbHNlLCJvYmplY3RUeXBlIjoiQ29tcGFueSIsInBhcmVudElkIjpudWxsLCJjcmVhdGVkQXQiOiIyMDIzLTA1LTAyVDEyOjM4OjEzLjExNloiLCJ1cGRhdGVkQXQiOiIyMDIzLTA1LTAyVDEyOjM4OjI3LjM0N1oiLCJfX3YiOjAsInBvY0lkIjoiNjM4ZWM2NGFhN2FlZTNjYmJlZTA1N2UxIn0sInJvbGVzIjpbeyJjcmVhdGVkQnkiOiIxIiwibW9kaWZpZWQiOiIxIiwiX2lkIjoiNjM3YjRiYzI5MGU0NjdhYjAzN2RlMzU0IiwiYWN0aXZlIjp0cnVlLCJkZWxldGVkIjpmYWxzZSwibmFtZSI6IkFkbWluIiwiZGVzY3JpcHRpb24iOiJBZG1pbiIsImNyZWF0ZWRBdCI6IjIwMjEtMTItMjBUMDY6MDY6NTkuMjc1WiIsInVwZGF0ZWRBdCI6IjIwMjItMDEtMjZUMDU6NTY6MDYuOTQ2WiIsIl9fdiI6MX1dLCJyZXZlbnVlQ2VudGVycyI6W119XX0sImlhdCI6MTY4NzI1ODYwMn0.qqoA7DkFBcLSmIG-OwPU8NV-feLlAnSvrBOXqhSYksA"
+    },
+    "success": true
+}
+Request method:	POST
+Request URI:	https://dineazy-api-dev.elaachi.com/api/v2/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "swati.p@itprofound.com",
+    "password": "Anish##0104"
+}
+HTTP/1.1 201 Created
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 20 Jun 2023 10:56:43 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1823
+Connection: keep-alive
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"71f-JutHNbhyX861yyMZ6lshKGGvGF0"
+
+{
+    "code": 200,
+    "message": "User successfully logged in.",
+    "data": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MzQxZjFjNGEyM2QxNDMyM2Y2Yjc2ZCIsImVtYWlsIjoic3dhdGkucEBpdHByb2ZvdW5kLmNvbSIsInJvbGVzIjp7ImZpcnN0TmFtZSI6InN3YXRpIiwibGFzdE5hbWUiOiJwYXRpbCIsImVtYWlsIjoic3dhdGkucEBpdHByb2ZvdW5kLmNvbSIsInBob25lIjoiNzYzMzUzOTMxOSIsIl9pZCI6IjY0MzQxZjFjNGEyM2QxNDMyM2Y2Yjc2ZCIsInN5c3RlbUFkbWluIjpmYWxzZSwicGVybWlzc2lvbnMiOlt7ImNvbXBhbnkiOnsiX2lkIjoiNjM3ZTM2MjUwMmY5ZGRhOTIyNmVjNWU4IiwiY3JlYXRlZEJ5IjoiMSIsIm1vZGlmaWVkIjoiMSIsImFjdGl2ZSI6dHJ1ZSwiZGVsZXRlZCI6ZmFsc2UsIm5hbWUiOiJJVEMiLCJkZXNjcmlwdGlvbiI6IiIsIndlYnNpdGUiOiIiLCJsb2dvSWQiOiI2MzdlNGY2YTAyZjlkZGE5MjI2ZWM4NDciLCJmVGVzdCI6ZmFsc2UsIm9iamVjdFR5cGUiOiJDb21wYW55IiwicGFyZW50SWQiOm51bGwsImNyZWF0ZWRBdCI6IjIwMjItMTEtMjNUMTU6MDM6MDEuOTIyWiIsInVwZGF0ZWRBdCI6IjIwMjMtMDYtMTlUMTI6Mjg6NTguODMxWiIsIl9fdiI6MCwicG9jSWQiOiI2NDM0Mjc0ZDRhMjNkMTQzMjNmNmI4MDYifSwicm9sZXMiOlt7ImNyZWF0ZWRCeSI6IjEiLCJtb2RpZmllZCI6IjEiLCJfaWQiOiI2MzdiNGJjMjkwZTQ2N2FiMDM3ZGUzNTQiLCJhY3RpdmUiOnRydWUsImRlbGV0ZWQiOmZhbHNlLCJuYW1lIjoiQWRtaW4iLCJkZXNjcmlwdGlvbiI6IkFkbWluIiwiY3JlYXRlZEF0IjoiMjAyMS0xMi0yMFQwNjowNjo1OS4yNzVaIiwidXBkYXRlZEF0IjoiMjAyMi0wMS0yNlQwNTo1NjowNi45NDZaIiwiX192IjoxfV0sInJldmVudWVDZW50ZXJzIjpbeyJfaWQiOiI2MzdlMzZhNzAyZjlkZGE5MjI2ZWM2MDQiLCJjcmVhdGVkQnkiOiIxIiwibW9kaWZpZWQiOiIxIiwiYWN0aXZlIjp0cnVlLCJkZWxldGVkIjpmYWxzZSwibmFtZSI6IkFyb21hIiwiZGVzY3JpcHRpb24iOiIiLCJ3ZWJzaXRlIjoiIiwibG9nb0lkIjoiNjM3ZTRmN2QwMmY5ZGRhOTIyNmVjODRkIiwiZlRlc3QiOmZhbHNlLCJvYmplY3RUeXBlIjoiUmVzdGF1cmFudCIsInBhcmVudElkIjoiNjM3ZTM2MjUwMmY5ZGRhOTIyNmVjNWU4IiwiY3JlYXRlZEF0IjoiMjAyMi0xMS0yM1QxNTowNToxMS40OTJaIiwidXBkYXRlZEF0IjoiMjAyMy0wNi0xOVQxMjowNTowNi4wODBaIiwiX192IjowLCJwb2NJZCI6IjYzN2UzNjUwMDJmOWRkYTkyMjZlYzVlYyJ9XX1dfSwiaWF0IjoxNjg3MjU4NjAzfQ.-0NDtc3RqRQA2-3kjazm-fDVwwk8T9fqw4UZdnv4b7k"
+    },
+    "success": true
+}
+Request method:	POST
+Request URI:	https://dineazy-api-dev.elaachi.com/api/v2/auth/otp/send
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "swati",
+    "lastName": "patil",
+    "phone": "7633539319",
+    "email": "swati.p@itprofound.com",
+    "password": "Anish##0104"
+}
+HTTP/1.1 201 Created
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 20 Jun 2023 10:56:44 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 138
+Connection: keep-alive
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"8a-EBYYXyv0nPzFZvGq3UcNdTy/vIk"
+
+{
+    "code": 200,
+    "message": "Otp sent successfully.",
+    "data": {
+        "phone": "7633539319",
+        "email": "swati.p@itprofound.com",
+        "otp": 839142
+    },
+    "success": true
+}
+Request method:	POST
+Request URI:	https://dineazy-api-dev.elaachi.com/api/v2/auth/otp/verify
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "swati.p@itprofound.com",
+    "phone": "7633539319",
+    "otp": "839142"
+}
+HTTP/1.1 201 Created
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 20 Jun 2023 10:56:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1821
+Connection: keep-alive
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"71d-5LD9dr5f8isykmjId4xF9rOck0c"
+
+{
+    "code": 200,
+    "message": "Otp verified successfully.",
+    "data": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MzQxZjFjNGEyM2QxNDMyM2Y2Yjc2ZCIsImVtYWlsIjoic3dhdGkucEBpdHByb2ZvdW5kLmNvbSIsInJvbGVzIjp7ImZpcnN0TmFtZSI6InN3YXRpIiwibGFzdE5hbWUiOiJwYXRpbCIsImVtYWlsIjoic3dhdGkucEBpdHByb2ZvdW5kLmNvbSIsInBob25lIjoiNzYzMzUzOTMxOSIsIl9pZCI6IjY0MzQxZjFjNGEyM2QxNDMyM2Y2Yjc2ZCIsInN5c3RlbUFkbWluIjpmYWxzZSwicGVybWlzc2lvbnMiOlt7ImNvbXBhbnkiOnsiX2lkIjoiNjM3ZTM2MjUwMmY5ZGRhOTIyNmVjNWU4IiwiY3JlYXRlZEJ5IjoiMSIsIm1vZGlmaWVkIjoiMSIsImFjdGl2ZSI6dHJ1ZSwiZGVsZXRlZCI6ZmFsc2UsIm5hbWUiOiJJVEMiLCJkZXNjcmlwdGlvbiI6IiIsIndlYnNpdGUiOiIiLCJsb2dvSWQiOiI2MzdlNGY2YTAyZjlkZGE5MjI2ZWM4NDciLCJmVGVzdCI6ZmFsc2UsIm9iamVjdFR5cGUiOiJDb21wYW55IiwicGFyZW50SWQiOm51bGwsImNyZWF0ZWRBdCI6IjIwMjItMTEtMjNUMTU6MDM6MDEuOTIyWiIsInVwZGF0ZWRBdCI6IjIwMjMtMDYtMTlUMTI6Mjg6NTguODMxWiIsIl9fdiI6MCwicG9jSWQiOiI2NDM0Mjc0ZDRhMjNkMTQzMjNmNmI4MDYifSwicm9sZXMiOlt7ImNyZWF0ZWRCeSI6IjEiLCJtb2RpZmllZCI6IjEiLCJfaWQiOiI2MzdiNGJjMjkwZTQ2N2FiMDM3ZGUzNTQiLCJhY3RpdmUiOnRydWUsImRlbGV0ZWQiOmZhbHNlLCJuYW1lIjoiQWRtaW4iLCJkZXNjcmlwdGlvbiI6IkFkbWluIiwiY3JlYXRlZEF0IjoiMjAyMS0xMi0yMFQwNjowNjo1OS4yNzVaIiwidXBkYXRlZEF0IjoiMjAyMi0wMS0yNlQwNTo1NjowNi45NDZaIiwiX192IjoxfV0sInJldmVudWVDZW50ZXJzIjpbeyJfaWQiOiI2MzdlMzZhNzAyZjlkZGE5MjI2ZWM2MDQiLCJjcmVhdGVkQnkiOiIxIiwibW9kaWZpZWQiOiIxIiwiYWN0aXZlIjp0cnVlLCJkZWxldGVkIjpmYWxzZSwibmFtZSI6IkFyb21hIiwiZGVzY3JpcHRpb24iOiIiLCJ3ZWJzaXRlIjoiIiwibG9nb0lkIjoiNjM3ZTRmN2QwMmY5ZGRhOTIyNmVjODRkIiwiZlRlc3QiOmZhbHNlLCJvYmplY3RUeXBlIjoiUmVzdGF1cmFudCIsInBhcmVudElkIjoiNjM3ZTM2MjUwMmY5ZGRhOTIyNmVjNWU4IiwiY3JlYXRlZEF0IjoiMjAyMi0xMS0yM1QxNTowNToxMS40OTJaIiwidXBkYXRlZEF0IjoiMjAyMy0wNi0xOVQxMjowNTowNi4wODBaIiwiX192IjowLCJwb2NJZCI6IjYzN2UzNjUwMDJmOWRkYTkyMjZlYzVlYyJ9XX1dfSwiaWF0IjoxNjg3MjU4NjA2fQ.LdRwdtcuqLSpLZkToXJKs9gLvbDZe_gmm5CY7vhSViw"
+    },
+    "success": true
+}
+Request method:	POST
+Request URI:	https://dineazy-api-dev.elaachi.com/api/v2/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "swati.p@itprofound.com",
+    "password": "Anish##0104"
+}
+HTTP/1.1 201 Created
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 20 Jun 2023 10:56:48 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1823
+Connection: keep-alive
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"71f-2ZgybtTsIEEZ78KNOMgNMaFmSf8"
+
+{
+    "code": 200,
+    "message": "User successfully logged in.",
+    "data": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MzQxZjFjNGEyM2QxNDMyM2Y2Yjc2ZCIsImVtYWlsIjoic3dhdGkucEBpdHByb2ZvdW5kLmNvbSIsInJvbGVzIjp7ImZpcnN0TmFtZSI6InN3YXRpIiwibGFzdE5hbWUiOiJwYXRpbCIsImVtYWlsIjoic3dhdGkucEBpdHByb2ZvdW5kLmNvbSIsInBob25lIjoiNzYzMzUzOTMxOSIsIl9pZCI6IjY0MzQxZjFjNGEyM2QxNDMyM2Y2Yjc2ZCIsInN5c3RlbUFkbWluIjpmYWxzZSwicGVybWlzc2lvbnMiOlt7ImNvbXBhbnkiOnsiX2lkIjoiNjM3ZTM2MjUwMmY5ZGRhOTIyNmVjNWU4IiwiY3JlYXRlZEJ5IjoiMSIsIm1vZGlmaWVkIjoiMSIsImFjdGl2ZSI6dHJ1ZSwiZGVsZXRlZCI6ZmFsc2UsIm5hbWUiOiJJVEMiLCJkZXNjcmlwdGlvbiI6IiIsIndlYnNpdGUiOiIiLCJsb2dvSWQiOiI2MzdlNGY2YTAyZjlkZGE5MjI2ZWM4NDciLCJmVGVzdCI6ZmFsc2UsIm9iamVjdFR5cGUiOiJDb21wYW55IiwicGFyZW50SWQiOm51bGwsImNyZWF0ZWRBdCI6IjIwMjItMTEtMjNUMTU6MDM6MDEuOTIyWiIsInVwZGF0ZWRBdCI6IjIwMjMtMDYtMTlUMTI6Mjg6NTguODMxWiIsIl9fdiI6MCwicG9jSWQiOiI2NDM0Mjc0ZDRhMjNkMTQzMjNmNmI4MDYifSwicm9sZXMiOlt7ImNyZWF0ZWRCeSI6IjEiLCJtb2RpZmllZCI6IjEiLCJfaWQiOiI2MzdiNGJjMjkwZTQ2N2FiMDM3ZGUzNTQiLCJhY3RpdmUiOnRydWUsImRlbGV0ZWQiOmZhbHNlLCJuYW1lIjoiQWRtaW4iLCJkZXNjcmlwdGlvbiI6IkFkbWluIiwiY3JlYXRlZEF0IjoiMjAyMS0xMi0yMFQwNjowNjo1OS4yNzVaIiwidXBkYXRlZEF0IjoiMjAyMi0wMS0yNlQwNTo1NjowNi45NDZaIiwiX192IjoxfV0sInJldmVudWVDZW50ZXJzIjpbeyJfaWQiOiI2MzdlMzZhNzAyZjlkZGE5MjI2ZWM2MDQiLCJjcmVhdGVkQnkiOiIxIiwibW9kaWZpZWQiOiIxIiwiYWN0aXZlIjp0cnVlLCJkZWxldGVkIjpmYWxzZSwibmFtZSI6IkFyb21hIiwiZGVzY3JpcHRpb24iOiIiLCJ3ZWJzaXRlIjoiIiwibG9nb0lkIjoiNjM3ZTRmN2QwMmY5ZGRhOTIyNmVjODRkIiwiZlRlc3QiOmZhbHNlLCJvYmplY3RUeXBlIjoiUmVzdGF1cmFudCIsInBhcmVudElkIjoiNjM3ZTM2MjUwMmY5ZGRhOTIyNmVjNWU4IiwiY3JlYXRlZEF0IjoiMjAyMi0xMS0yM1QxNTowNToxMS40OTJaIiwidXBkYXRlZEF0IjoiMjAyMy0wNi0xOVQxMjowNTowNi4wODBaIiwiX192IjowLCJwb2NJZCI6IjYzN2UzNjUwMDJmOWRkYTkyMjZlYzVlYyJ9XX1dfSwiaWF0IjoxNjg3MjU4NjA4fQ.ZMWkXN3cI7QsKlIV9aq3Z6tRkSR8sTuchvpsqil88Qc"
+    },
+    "success": true
+}
+Request method:	GET
+Request URI:	https://dineazy-api-dev.elaachi.com/api/v2/auth/profile
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MzQxZjFjNGEyM2QxNDMyM2Y2Yjc2ZCIsImVtYWlsIjoic3dhdGkucEBpdHByb2ZvdW5kLmNvbSIsInJvbGVzIjp7ImZpcnN0TmFtZSI6InN3YXRpIiwibGFzdE5hbWUiOiJwYXRpbCIsImVtYWlsIjoic3dhdGkucEBpdHByb2ZvdW5kLmNvbSIsInBob25lIjoiNzYzMzUzOTMxOSIsIl9pZCI6IjY0MzQxZjFjNGEyM2QxNDMyM2Y2Yjc2ZCIsInN5c3RlbUFkbWluIjpmYWxzZSwicGVybWlzc2lvbnMiOlt7ImNvbXBhbnkiOnsiX2lkIjoiNjM3ZTM2MjUwMmY5ZGRhOTIyNmVjNWU4IiwiY3JlYXRlZEJ5IjoiMSIsIm1vZGlmaWVkIjoiMSIsImFjdGl2ZSI6dHJ1ZSwiZGVsZXRlZCI6ZmFsc2UsIm5hbWUiOiJJVEMiLCJkZXNjcmlwdGlvbiI6IiIsIndlYnNpdGUiOiIiLCJsb2dvSWQiOiI2MzdlNGY2YTAyZjlkZGE5MjI2ZWM4NDciLCJmVGVzdCI6ZmFsc2UsIm9iamVjdFR5cGUiOiJDb21wYW55IiwicGFyZW50SWQiOm51bGwsImNyZWF0ZWRBdCI6IjIwMjItMTEtMjNUMTU6MDM6MDEuOTIyWiIsInVwZGF0ZWRBdCI6IjIwMjMtMDYtMTlUMTI6Mjg6NTguODMxWiIsIl9fdiI6MCwicG9jSWQiOiI2NDM0Mjc0ZDRhMjNkMTQzMjNmNmI4MDYifSwicm9sZXMiOlt7ImNyZWF0ZWRCeSI6IjEiLCJtb2RpZmllZCI6IjEiLCJfaWQiOiI2MzdiNGJjMjkwZTQ2N2FiMDM3ZGUzNTQiLCJhY3RpdmUiOnRydWUsImRlbGV0ZWQiOmZhbHNlLCJuYW1lIjoiQWRtaW4iLCJkZXNjcmlwdGlvbiI6IkFkbWluIiwiY3JlYXRlZEF0IjoiMjAyMS0xMi0yMFQwNjowNjo1OS4yNzVaIiwidXBkYXRlZEF0IjoiMjAyMi0wMS0yNlQwNTo1NjowNi45NDZaIiwiX192IjoxfV0sInJldmVudWVDZW50ZXJzIjpbeyJfaWQiOiI2MzdlMzZhNzAyZjlkZGE5MjI2ZWM2MDQiLCJjcmVhdGVkQnkiOiIxIiwibW9kaWZpZWQiOiIxIiwiYWN0aXZlIjp0cnVlLCJkZWxldGVkIjpmYWxzZSwibmFtZSI6IkFyb21hIiwiZGVzY3JpcHRpb24iOiIiLCJ3ZWJzaXRlIjoiIiwibG9nb0lkIjoiNjM3ZTRmN2QwMmY5ZGRhOTIyNmVjODRkIiwiZlRlc3QiOmZhbHNlLCJvYmplY3RUeXBlIjoiUmVzdGF1cmFudCIsInBhcmVudElkIjoiNjM3ZTM2MjUwMmY5ZGRhOTIyNmVjNWU4IiwiY3JlYXRlZEF0IjoiMjAyMi0xMS0yM1QxNTowNToxMS40OTJaIiwidXBkYXRlZEF0IjoiMjAyMy0wNi0xOVQxMjowNTowNi4wODBaIiwiX192IjowLCJwb2NJZCI6IjYzN2UzNjUwMDJmOWRkYTkyMjZlYzVlYyJ9XX1dfSwiaWF0IjoxNjg3MjU4NjA4fQ.ZMWkXN3cI7QsKlIV9aq3Z6tRkSR8sTuchvpsqil88Qc
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "swati.p@itprofound.com",
+    "password": "Anish##0104"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 20 Jun 2023 10:56:49 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1231
+Connection: keep-alive
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"4cf-DeE6Wldo5lsGIWWZkUlJ40VqjgA"
+
+{
+    "code": 200,
+    "message": "User profile successfully retrived.",
+    "data": {
+        "firstName": "swati",
+        "lastName": "patil",
+        "email": "swati.p@itprofound.com",
+        "phone": "7633539319",
+        "_id": "64341f1c4a23d14323f6b76d",
+        "systemAdmin": false,
+        "permissions": [
+            {
+                "company": {
+                    "_id": "637e362502f9dda9226ec5e8",
+                    "createdBy": "1",
+                    "modified": "1",
+                    "active": true,
+                    "deleted": false,
+                    "name": "ITC",
+                    "description": "",
+                    "website": "",
+                    "logoId": "637e4f6a02f9dda9226ec847",
+                    "fTest": false,
+                    "objectType": "Company",
+                    "parentId": null,
+                    "createdAt": "2022-11-23T15:03:01.922Z",
+                    "updatedAt": "2023-06-19T12:28:58.831Z",
+                    "__v": 0,
+                    "pocId": "6434274d4a23d14323f6b806"
+                },
+                "roles": [
+                    {
+                        "createdBy": "1",
+                        "modified": "1",
+                        "_id": "637b4bc290e467ab037de354",
+                        "active": true,
+                        "deleted": false,
+                        "name": "Admin",
+                        "description": "Admin",
+                        "createdAt": "2021-12-20T06:06:59.275Z",
+                        "updatedAt": "2022-01-26T05:56:06.946Z",
+                        "__v": 1
+                    }
+                ],
+                "revenueCenters": [
+                    {
+                        "_id": "637e36a702f9dda9226ec604",
+                        "createdBy": "1",
+                        "modified": "1",
+                        "active": true,
+                        "deleted": false,
+                        "name": "Aroma",
+                        "description": "",
+                        "website": "",
+                        "logoId": "637e4f7d02f9dda9226ec84d",
+                        "fTest": false,
+                        "objectType": "Restaurant",
+                        "parentId": "637e362502f9dda9226ec5e8",
+                        "createdAt": "2022-11-23T15:05:11.492Z",
+                        "updatedAt": "2023-06-19T12:05:06.080Z",
+                        "__v": 0,
+                        "pocId": "637e365002f9dda9226ec5ec"
+                    }
+                ]
+            }
+        ]
+    },
+    "success": true
+}
