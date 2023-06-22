@@ -7,17 +7,14 @@
 pipeline {
     agent any
 
-    
+    // triggers {
+    //     cron('H 02 * * *')
+    // }
 
-    triggers {
-        cron('H 02 * * *')
-    }
-
-
-    tools {
-        maven 'maven'
-        jdk 'jdk11'
-    }
+    // tools {
+    //     maven 'maven'
+    //     jdk 'jdk11'
+    // }
 
     environment {
         //set the environment variable
@@ -29,10 +26,7 @@ pipeline {
             steps {
                 withMaven(
                         jdk: 'jdk11',
-                        maven: 'maven',
-                        options: [
-                                junitPublisher(healthScaleFactor: 1.0)
-                        ]
+                        maven: 'maven'
                 ) {
                     //On all environment we need to compile all tests
                     echo "------------- Start tests compilation packaging --------------"
