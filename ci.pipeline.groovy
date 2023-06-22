@@ -16,18 +16,18 @@ pipeline {
     //     jdk 'jdk11'
     // }
 
-    environment {
-        //set the environment variable
-        TEST_ENVIRONMENT = "${params.QAEnvironment}"
-    }
+    // environment {
+    //     //set the environment variable
+    //     TEST_ENVIRONMENT = "${params.QAEnvironment}"
+    // }
 
     stages {
         stage('Compile') {
             steps {
-                withMaven(
-                        jdk: 'jdk11',
-                        maven: 'maven'
-                ) {
+                // withMaven(
+                //         jdk: 'jdk11',
+                //         maven: 'maven'
+                // ) {
                     //On all environment we need to compile all tests
                     echo "------------- Start tests compilation packaging --------------"
                     script {
