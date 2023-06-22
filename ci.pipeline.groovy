@@ -27,7 +27,8 @@ pipeline {
                 // withMaven(
                 //         jdk: 'jdk11',
                 //         maven: 'maven'
-                // ) {
+                // ) 
+              {
                     //On all environment we need to compile all tests
                     echo "------------- Start tests compilation packaging --------------"
                     script {
